@@ -1,0 +1,174 @@
+  .header {
+    overflow: hidden;
+    padding: 10px 10px;
+    width: auto;
+    }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 8px;   
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header-logo{
+    float: left;
+  }
+  .header-right {
+    float: right;
+  }
+  .header-left{
+      float: left;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header p {
+      float: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .header-right {
+      float: left;
+    }
+  }
+  .image-text-centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .image-text-container {
+    position: relative;
+    text-align: center;
+    font-size:1vw;
+    color: white;
+  }
+
+  .section-3{
+    overflow: hidden;
+    position: relative;
+  }
+  .embed{
+    background-color:grey; height: 30px; font-size: 20px; 
+  }
+  .section-3 img{
+    max-width: 100%;
+    height: auto;
+  }
+  @media(min-width: 500px){
+    .section-3{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .section-3 img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+ .benefits{
+  display: flex;
+  flex-direction: column;
+  
+}
+.benefits-childdiv{
+  margin: auto;
+  display: flex;
+}
+.img-div{
+ 
+}
+.content-div{
+  
+}
+@media(min-width: 500px){
+  .benefits{
+     display: flex;
+    flex-direction: column;
+   }
+}  
+
+.video-collection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* position: relative; */
+  text-align: center;
+}
+.video-collection p{
+  margin: 50px;
+  font-size: 20px;
+}
+.video-collection img{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.use-clipmine{
+  overflow: hidden;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  grid-gap: 32px;
+}
+.use-clipmine img{
+  max-width: 100%;
+  height: auto; 
+}
+.use-clipmine p{
+  padding-left: 150px;
+  font-size: 20px;
+}
+.tag{
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+.tag input{
+  width : 20%;
+  height: 5%;
+  border: 1px solid grey;
+}
+.tag button{
+  width : 7%;
+  height: 6%;
+  background-color: blueviolet;
+  font-size: 18px;
+}
+.supported-plateforms{
+  margin-top: 40px;
+  background-color: grey;
+  width: auto;
+  height: 400px;
+  text-align: center;
+}
+.supported-plateforms img{
+  max-width: 100%;
+  height: auto;
+}
+.supported-plateforms h1{
+  padding-top: 80px;
+  text-align: center;
+}
+.footer-a{
+  text-align: center;
+  background-color: lightslategray;
+  color: blue;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.footer-b{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
