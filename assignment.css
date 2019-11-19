@@ -93,8 +93,7 @@
   justify-content: space-between;
   text-align: center;
 }
-.video-collection p{
-  margin: 50px;
+.video-collection-content-div{
   font-size: 20px;
   text-align: center;
 }
