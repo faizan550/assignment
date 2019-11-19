@@ -71,11 +71,6 @@
     }
   }
 
- .benefits{
-  display: flex;
-  flex-direction: column;
-  
-}
 .benefits-childdiv{
   margin: auto;
   display: flex;
